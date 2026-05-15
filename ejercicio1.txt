@@ -1,0 +1,21 @@
+ #include <stdio.h>
+
+int main() {
+
+    int arreglo[] = {3, 6, 9, 12, 15, 18};
+
+    printf("{ ");
+
+    for (int i = 0; i < 6; i++) {
+
+        printf("%d", arreglo[i]);
+
+        if (i < 5) {
+            printf(", ");
+        }
+    }
+
+    printf(" }");
+
+    return 0;
+}
